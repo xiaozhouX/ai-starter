@@ -186,6 +186,8 @@ spec:
     app: arena-notebook
   type: $SREVICE_TYPE
 EOF
+
+#TODO: create ingress
 }
 
 function install() {
