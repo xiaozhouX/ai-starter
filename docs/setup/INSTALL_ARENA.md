@@ -25,12 +25,20 @@
 ```
 curl -s https://raw.githubusercontent.com/AliyunContainerService/ai-starter/master/scripts/install_arena.sh | \
 bash -s -- \
---prometheus --host-network
+--prometheus
 ```
 
 上述安装执行中，可以通过以下参数定制部署的依赖组件：
 ```
 --prometheus     指定是否部署Prometheus，以及GPU监控的采集器和Grafana
---host-network   指定是否对通过Arena提交的训练任务自动开启HostNetwork
 ```
 
+##### 检查安装结果
+```
+# 查看arena 依赖
+# kubectl -n arena-system get po
+NAME                                      READY   STATUS    RESTARTS   AGE
+mpi-operator-5f89ddc9bf-5mw4c             1/1     Running   0          4d
+tf-job-dashboard-7dc786b7fb-t57wx         1/1     Running   0          4d
+tf-job-operator-v1alpha2-98bfbfc4-9d66t   1/1     Running   0          4d
+```

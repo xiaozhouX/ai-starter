@@ -14,16 +14,20 @@
 
 ## 开始使用
 
-1.  环境准备
-	* [创建集群](docs/setup/CREATE_CLUSTER.md)
-	* [配置NAS作为共享存储](docs/setup/SETUP_NAS.md)
-	* [安装机器学习基础架构Arena](docs/setup/INSTALL_ARENA.md)
+* 集群管理员的工作
+	1.  环境准备
+		* [创建集群](docs/setup/CREATE_CLUSTER.md)
+		* [配置NAS作为共享存储](docs/setup/SETUP_NAS.md)
+		* [安装机器学习基础架构Arena](docs/setup/INSTALL_ARENA.md)
+	2. 部署Notebook
+		* [如何部署notebook](docs/guide/INSTALL_NOTEBOOK.md)
 
-2.  入门体验
-	* [如何部署notebook](docs/guide/INSTALL_NOTEBOOK.md)
+* 数据科学家的工作
+1.  入门体验
+	* [如何访问notebook](docs/guide/USE_NOTEBOOK.md)
 	* [如何使用notebook](docs/guide/USE_NOTEBOOK.md)
 
-3.  模型实践
+2.  模型实践
 	* [单机mnist](demo/1-start-with-mnist.ipynb)
 	* [多机mnist](demo/2-distributed-mnist.ipynb)
 	* [MPI分布式训练](demo/3-submit-mpi.ipynb)
