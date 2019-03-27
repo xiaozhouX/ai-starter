@@ -17,11 +17,10 @@
 1.  环境准备
 	* [创建集群](docs/setup/CREATE_CLUSTER.md)
 	* [配置NAS作为共享存储](docs/setup/SETUP_NAS.md)
-	* [安装机器学习基础架构Arena](docs/setup/INSTALL_NOTEBOOK.md)
-	* [配置本地环境](docs/setup/SETUP_LOCAL.md) Deprecated
+	* [安装机器学习基础架构Arena](docs/setup/INSTALL_ARENA.md)
 
 2.  入门体验
-	* [如何部署notebook](docs/guide/ACCESS_NOTEBOOK.md)
+	* [如何部署notebook](docs/guide/INSTALL_NOTEBOOK.md)
 	* [如何使用notebook](docs/guide/USE_NOTEBOOK.md)
 
 3.  模型实践
