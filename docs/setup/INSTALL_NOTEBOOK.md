@@ -1,8 +1,10 @@
-# 如何部署notebook
+# 如何部署Notebook
 
 ### 前提
-请按照 [配置本地环境](../setup/SETUP_LOCAL.md) 这章配置本地环境。
-请按照 [安装机器学习基础架构Arena](../setup/INSTALL_ARENA.md) 这章安装基础架构Arena。
+* 请按照 [配置本地环境](../setup/SETUP_LOCAL.md) 这章配置本地环境。
+* 请按照 [安装机器学习基础架构Arena](../setup/INSTALL_ARENA.md) 这章安装基础架构Arena
+* 请按照 [配置共享存储](../setup/SETUP_PUBLIC_STORAGE.md) 这章配置共享数据的存储声明
+* 请按照 [配置Notebook存储](../setup/SETUP_USER_STORAGE.md) 这章配置用于存放Notebook数据的存储声明
 
 
 #### 部署Notebook
@@ -66,5 +68,5 @@ Ingress of notebook ip is 39.104.xx.xx
 Ingress of notebook domain is foo.bar.com
 ```
 
-集群管理员得到Notebook访问地址和token。至此集群管理员完成环境搭建的工作。 
-集群管理员将密码和Tokenn交给数据科学家，数据科学家在Notebook中开始自己的深度学习工作。
+至此集群管理员完成环境配置工作，并为数据科学家分配了一个深度学习环境。
+集群管理员将密码和Tokenn交给数据科学家，数据科学家在Notebook中即可开始自己的深度学习工作。
