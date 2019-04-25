@@ -31,5 +31,3 @@
 		* [单机mnist](demo/1-start-with-mnist.ipynb)
 		* [多机mnist](demo/2-distributed-mnist.ipynb)
 		* [MPI分布式训练](demo8/3-submit-mpi.ipynb)
-		* [Resnet模型发布](docs/practice/RESNET.md)
-		* [Bert模型](docs/practice/BERT.md)
